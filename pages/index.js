@@ -34,7 +34,7 @@ export default function Home() {
 })
 
   useEffect(()=>{
-    axios.get("http://localhost:3000/api/temp")
+    axios.get("https://vercel-smile-ai.vercel.app/api/temp")
     .then((response)=>{
       console.log(response);
 	  let temprature=[]
